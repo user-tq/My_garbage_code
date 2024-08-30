@@ -3,13 +3,14 @@ import pandas as pd
 from datetime import datetime
 import smtplib
 import akshare as ak
-
+import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import configparser
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
 config = configparser.ConfigParser()
-config.read("config.ini")
+config.read(os.path.join(script_dir, "config.ini"))
 
 
 email_addr = config["email"]["address"]
