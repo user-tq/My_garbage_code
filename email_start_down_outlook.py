@@ -103,10 +103,15 @@ def change_flag(index, operation, flag):
     change_flag(index,'+FLAGS', '\\Flagged') # 标记一下
     change_flag(index,'+FLAGS', '\\Seen') # 已读一下
     """
-    with imaplib.IMAP4_SSL(imp_server) as server:  # 登录服务器
-        server.login(email_addr, password)
-        server.select("INBOX")
-        server.uid("STORE", index, operation, flag)
+    try:
+        with imaplib.IMAP4_SSL(imp_server) as server:  # 登录服务器
+            server.login(email_addr, password)
+            server.select("INBOX")
+            server.uid("STORE", index, operation, flag)
+        return True
+    except:
+        print("邮件获取失败")
+        return False
 
 
 def get_url_csv_str():
@@ -171,6 +176,13 @@ def down_tos_1(cloudpath, local_store):
     local_dir = os.path.join(
         local_store, "-".join(cloudpath.split("/")[-1].split("-")[0:-3])
     )
+    if not os.path.exists(local_dir):  # 不存在，直接下载
+        command = "tosutil.exe cp {}  {}  -r -flat ".format(cloudpath, local_dir)
+        process = subprocess.Popen(
+            command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+        )
+        stdout, stderr = process.communicate()
+        return None
     exist_samples = get_local_files(local_dir)
 
     cloud_files = get_cloud_files(cloudpath)
@@ -212,7 +224,7 @@ if __name__ == "__main__":
             print(uid)
             print(url)
             rt_erro = down_tos_1(url, local_dir)
-            if rt_erro == None:
+            if not rt_erro:
                 send_email("下载完成", "{}已下载".format(url))
             else:
                 print("下载出错或存在重复样本，建议排查")
