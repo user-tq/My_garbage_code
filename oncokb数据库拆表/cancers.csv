@@ -1,0 +1,77 @@
+cancercode,cancertype,cancertype_zh
+CML,Chronic Myelogenous Leukemia,慢性骨髓性白血病
+BLL,B-Lymphoblastic Leukemia/Lymphoma,B淋巴母细胞白血病/淋巴瘤
+,Breast Cancer,乳腺癌
+,Endometrial Cancer,子宫内膜癌
+,Ovarian Cancer,卵巢癌
+ALCLALKP,Anaplastic Large-Cell Lymphoma ALK Positive,间变性大细胞淋巴瘤ALK阳性
+IMT,Inflammatory Myofibroblastic Tumor,炎性肌纤维母细胞瘤
+,Non-Small Cell Lung Cancer,非小细胞肺癌
+,All Solid Tumors,所有的实体瘤
+,"Prostate Cancer, NOS",前列腺癌（分类不明）
+,Prostate Cancer,前列腺癌
+ECD,Erdheim-Chester Disease,厄德海姆-切斯特病
+LCH,Langerhans Cell Histiocytosis,朗格汉斯细胞组织细胞增生症
+RDD,Rosai-Dorfman Disease,Rosai-Dorfman病
+,Histiocytosis,组织细胞增生症
+LGGNOS,"Low-Grade Glioma, NOS",低级别胶质瘤（分类不明）
+PAST,Pilocytic Astrocytoma,毛细胞性星形细胞瘤
+MEL,Melanoma,黑素瘤
+THAP,Anaplastic Thyroid Cancer,甲状腺未分化癌
+,"Biliary Tract Cancer, NOS",胆道癌（分类不明）
+,Colorectal Cancer,结直肠癌
+HCL,Hairy Cell Leukemia,毛细胞白血病
+ENCG,Encapsulated Glioma,包裹性神经胶质瘤
+DIFG,Diffuse Glioma,弥漫性胶质瘤
+PXA,Pleomorphic Xanthoastrocytoma,多形性黄色星形细胞瘤
+GNG,Ganglioglioma,神经节细胞胶质瘤
+OVARY,Ovary/Fallopian Tube,卵巢/输卵管
+PSEC,Peritoneal Serous Carcinoma,腹膜浆液性癌
+PAAD,Pancreatic Adenocarcinoma,胰腺癌
+PAAC,Acinar Cell Carcinoma of the Pancreas,胰腺腺泡细胞癌
+,Uterine Sarcoma,子宫肉瘤
+,Glioma,神经胶质瘤
+,Esophagogastric Cancer,食管胃癌
+USC,Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma,子宫浆液性癌/子宫乳头状浆液性癌
+,Salivary Gland Cancer,唾液腺癌
+FL,Follicular Lymphoma,滤泡性淋巴瘤
+CHOL,Cholangiocarcinoma,胆管癌
+,Bladder Cancer,膀胱癌
+AML,Acute Myeloid Leukemia,急性髓性白血病
+BLCA,Bladder Urothelial Carcinoma,膀胱尿路上皮癌
+HNSC,Head and Neck Squamous Cell Carcinoma,头颈部鳞状细胞癌
+CHS,Chondrosarcoma,软骨肉瘤
+ODG,Oligodendroglioma,少突胶质细胞瘤
+ASTR,Astrocytoma,星形细胞瘤
+,Myelodysplastic Syndromes,骨髓增生异常综合征
+IHCH,Intrahepatic Cholangiocarcinoma,肝内胆管癌
+MLNER,Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2,伴嗜酸性粒细胞增多和PDGFRA/PDGFRB或FGFR1或PCM1-JAK2重排的髓系/淋巴系肿瘤
+CELNOS,"Chronic Eosinophilic Leukemia, NOS",慢性嗜酸性粒细胞白血病（分类不明）
+GIST,Gastrointestinal Stromal Tumor,胃肠道间质瘤
+,Mastocytosis,肥大细胞增多症
+,Hepatobiliary Cancer,肝胆癌
+,Ampullary Cancer,壶腹癌
+,Tubular Adenoma of the Colon,结肠管状腺瘤
+,Anal Cancer,肛门癌
+,Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach,食管/胃的胃肠神经内分泌肿瘤
+,Small Bowel Cancer,小肠癌
+LGSOC,Low-Grade Serous Ovarian Cancer,低度浆液性卵巢癌
+NFIB,Neurofibroma,神经纤维瘤
+,Thyroid Cancer,甲状腺癌
+MDS/MPN,Myelodysplastic/Myeloproliferative Neoplasms,骨髓增生异常/骨髓增殖性肿瘤
+MBL,Medulloblastoma,髓母细胞瘤
+THME,Medullary Thyroid Cancer,甲状腺髓样癌
+CMML,Chronic Myelomonocytic Leukemia,慢性粒单核细胞白血病
+,All Liquid Tumors,所有液体肿瘤
+EPIS,Epithelioid Sarcoma,上皮样肉瘤
+CLLSLL,Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma,慢性淋巴细胞性白血病/小淋巴细胞性淋巴瘤
+DDLS,Dedifferentiated Liposarcoma,去分化脂肪肉瘤
+WDLS,Well-Differentiated Liposarcoma,分化良好的脂肪肉瘤
+INTS,Intimal Sarcoma,内膜肉瘤
+,Renal Cell Carcinoma,肾细胞癌
+APLPMLRARA,APL with PML-RARA,急性早幼粒细胞白血病（PML-RARA融合型）
+PECOMA,Perivascular Epithelioid Cell Tumor,血管周上皮样细胞瘤
+UPECOMA,Uterine Perivascular Epithelioid Cell Tumor,子宫血管周上皮样细胞瘤
+ES,Ewing Sarcoma,尤因肉瘤
+ESST,Ewing Sarcoma of Soft Tissue,软组织尤因肉瘤
+DFSP,Dermatofibrosarcoma Protuberans,隆突性皮肤纤维肉瘤
