@@ -1,0 +1,6 @@
+# Ignore the build directory
+build/
+tk应用/
+*.egg-info
+*.pyc
+*.pyo
